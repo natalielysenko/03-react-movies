@@ -1,5 +1,5 @@
 import css from "./MovieModal.module.css";
-import type { Movie } from "../../types/types.ts";
+import type { Movie } from "../../types/movie.ts";
 import { BASE_IMG_URL } from "../MovieGrid/MovieGrid.tsx";
 import { createPortal } from "react-dom";
 import { useEffect } from "react";
